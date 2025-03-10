@@ -11,7 +11,7 @@ const tecnologias : TecnologiaCardProps[] = [
 
 export default function Sobre() {
     return (
-        <section className="w-full lg:w-3/4 flex flex-col gap-4 items-center font-inter">
+        <section className="w-full md:w-3/4 lg:max-w-screen-lg flex flex-col gap-4 items-center font-inter">
             <h2 className="w-full text-2xl font-bold">Sobre</h2>
             <p className=" text-lg text-justify indent-8">Olá, meu nome é Yan Campêlo. Sou estudante de Engenharia de Computação no SENAI CIMATEC e atualmente estou estagiando na área de automação do Cimatec. Estou em constante busca por aprimorar meus conhecimentos e ganhar experiência na área de tecnologia, com foco em desenvolvimento de software e automação.
             </p>
@@ -22,9 +22,11 @@ export default function Sobre() {
                 <li>Sistemas Embarcados</li>
                 <li>Banco de Dados</li>
             </ul>
-            <h3 className="w-full text-2xl font-bold">Experiências com tecnologias:</h3>
-            <div className="w-full md:w-3/4 flex flex-wrap justify-center items-end gap-4">
-                {tecnologias.map((card: TecnologiaCardProps) => {return <TecnologiaCard titulo={card.titulo} imagem={card.imagem}/>})}
+            <div className="w-full flex flex-col gap-8">
+                <h3 className="w-full text-2xl font-bold">Experiências com tecnologias:</h3>
+                <div className="w-full md:max-w-3/4 flex flex-wrap justify-center items-end gap-4">
+                    {tecnologias.map((card: TecnologiaCardProps) => {return <TecnologiaCard key={card.titulo} titulo={card.titulo} imagem={card.imagem}/>})}
+                </div>
             </div>
             {/* <ul className="list-disc pl-8 w-full">
                 <li>React e Next.js</li>
