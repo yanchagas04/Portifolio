@@ -6,7 +6,7 @@ const fotoPerfil = "https://media.licdn.com/dms/image/v2/D4D03AQHUgYPw35Fjbw/pro
 export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
-        <header className={"w-full flex justify-center items-cente bg-indigo-800 font-inter"}>
+        <header className={"w-full sticky top-0 z-50 flex justify-center items-cente bg-indigo-800 font-inter"}>
             <nav className="w-full flex flex-col md:flex-row justify-between items-center min-w-56">
                 <div className={"flex flex-row items-center md:max-w-fit w-full relative z-10 px-4 pt-4 duration-500 ease-in-out " + (menuOpen ? "" : "pb-4")}>
                     <div className="w-full md:max-w-fit flex flex-row items-center gap-4">

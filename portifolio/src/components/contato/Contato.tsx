@@ -27,7 +27,7 @@ export default function Contato() {
         }) ;
     }
     return (
-        <section id="sobre" className="w-full lg:w-3/4 lg:max-w-screen-lg flex flex-col gap-4 items-center font-inter">
+        <section id="contato" className="w-full lg:w-3/4 lg:max-w-screen-lg flex flex-col gap-4 items-center font-inter">
             <h2 className="w-full text-3xl md:text-center font-bold">Contato</h2>
             <p className=" text-md text-justify indent-8">Se você curtiu o que viu por aqui e quer trocar uma ideia ou sugerir uma colaboração, manda um e-mail!</p>
             <span className="w-full flex flex-col gap-4">
