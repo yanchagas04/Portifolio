@@ -21,10 +21,10 @@ export default function Header() {
                 </div>
                 <ul className={"md:w-fit md:p-4 w-full duration-500 ease-in-out items-left flex flex-col md:flex-row md:items-end md:text-lg md:h-fit justify-center md:pl-0 pl-4 md:gap-8 gap-4 overflow-hidden " + (menuOpen ? "h-[142px]" : "h-0")}>
                     <li className={"cursor-pointer w-fit duration-500 ease-in-out border-b-transparent border-b-2 hover:border-b-slate-50 h-fit md:scale-y-100 " + (menuOpen ? "" : "scale-y-0")}>
-                        <a href="#projetos">Projetos</a>
+                        <a href="#sobre">Sobre</a>
                     </li>
                     <li className={"cursor-pointer w-fit duration-500 ease-in-out border-b-transparent border-b-2 hover:border-b-slate-50 h-fit md:scale-y-100 " + (menuOpen ? "" : "scale-y-0")}>
-                        <a href="#sobre">Sobre</a>
+                        <a href="#projetos">Projetos</a>
                     </li>
                     <li className={"cursor-pointer w-fit duration-500 ease-in-out border-b-transparent border-b-2 hover:border-b-slate-50 h-fit md:scale-y-100 " + (menuOpen ? "" : "scale-y-0")}>
                         <a href="#contato">Contato</a>
