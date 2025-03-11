@@ -3,6 +3,7 @@ import Sobre from "@/components/sobre/Sobre";
 import Image from "next/image";
 import Projetos from "@/components/projetos/Projetos"
 import Footer from "@/components/footer/Footer";
+import Contato from "@/components/contato/Contato";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <main className="w-full px-8 gap-8 flex flex-col items-center">
         <Sobre />
         <Projetos />
+        <Contato/>
       </main>
       <Footer/> 
     </div>

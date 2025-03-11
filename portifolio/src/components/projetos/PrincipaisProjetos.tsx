@@ -23,7 +23,7 @@ export default function PrincipaisProjetos() {
                     {!aberto && <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-360 280-560h400L480-360Z"/></svg>}
                     
                 </button>
-                <h3 className="w-full text-2xl font-bold  p-4 ">Principais projetos</h3>
+                <h3 className="w-full text-xl font-bold  p-4 ">Principais projetos</h3>
             </div>
             <div className={"w-full justify-center items-end gap-4 " + (aberto ? "flex flex-col" : "hidden")}>
                 {projetos.map((card) => {return <ProjetoCard key={card.text} text={card.text} link={card.link}/>})}
