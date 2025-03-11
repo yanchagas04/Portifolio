@@ -2,6 +2,7 @@ import Header from "@/components/header/Header";
 import Sobre from "@/components/sobre/Sobre";
 import Image from "next/image";
 import Projetos from "@/components/projetos/Projetos"
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Sobre />
         <Projetos />
       </main>
+      <Footer/> 
     </div>
   );
 }

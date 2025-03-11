@@ -31,10 +31,10 @@ export default function OutrosProjetos() {
                         </p>
                     </div>
                     <div className="w-full flex flex-col sm:flex-row gap-4 h-fit items-center">
-                        <a className="flex flex-col gap-4 items-center duration-150 ease-in-out transition-all font-inter hover:scale-105 hover:border-yellow-300 hover:animate-pulse border-2 rounded-lg p-4 w-full md:max-w-36" href={instagramBaja}>
-                            <h3 className="text-sm">Calangotec Baja</h3>
+                        <a className="flex flex-col gap-4 justify-center items-center duration-150 ease-in-out transition-all font-inter hover:scale-105 hover:border-yellow-300 hover:animate-pulse border-2 rounded-lg p-4 w-full md:max-w-36 aspect-square" href={instagramBaja}>
+                            <h3 className="text-xl text-center">Calangotec Baja</h3>
                         </a>
-                        <p className="text-justify md:w-full md:min-w-3/5 h-fit">Se curtiu os projetos que eu citei acima e quiser dar uma olhada em outros que já fiz, visite o meu GitHub! Lá tem um monte de ideias, experimentos e coisas que fui criando ao longo do tempo e a medida que fui aprendendo.
+                        <p className="text-justify md:w-full md:min-w-3/5 h-fit">A Iniciativa Estudantil Calangotec Baja é um projeto que reúne estudantes apaixonados por engenharia, tecnologia e inovação, com o objetivo de projetar, construir e competir com um veículo off-road, conhecido como Baja SAE. Faço parte do subsistema de Eletrônica, onde atuamos no desenvolvimento e implementação de soluções tecnológicas que garantem o funcionamento da parte elétrica do veículo. Nossa responsabilidade inclui a criação de sistemas de telemetria para coleta de dados em tempo real, como velocidade, rotação do motor, temperatura e outros parâmetros essenciais para o desempenho do Baja. 
                         </p>
                     </div>
                 </div>
