@@ -12,7 +12,7 @@ const tecnologias : TecnologiaCardProps[] = [
 export default function Sobre() {
     return (
         <section id="sobre" className="w-full lg:w-3/4 lg:max-w-screen-lg flex flex-col gap-4 items-center font-inter">
-            <h2 className="w-full text-3xl md:text-center font-bold">Sobre</h2>
+            <h2 className="">Sobre</h2>
             <p className=" text-md text-justify indent-8">Olá, meu nome é Yan Campêlo. Sou estudante de Engenharia de Computação no SENAI CIMATEC e atualmente estou estagiando na área de automação do Cimatec. Estou em constante busca por aprimorar meus conhecimentos e ganhar experiência na área de tecnologia, com foco em desenvolvimento de software e automação.
             </p>
             <h3 className="w-full text-2xl font-bold">Minhas habilidades incluem:</h3>
