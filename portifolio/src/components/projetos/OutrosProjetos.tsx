@@ -2,6 +2,7 @@
 import { useState } from "react"
 const githubURL = "https://github.com/yanchagas04"
 const instagramBaja = "https://www.instagram.com/calangotecbaja/"
+import logobaja from "../../../public/projetos/logoBaja.svg"
 
 export default function OutrosProjetos() {
     const [aberto, setAberto] = useState(false)
@@ -32,7 +33,7 @@ export default function OutrosProjetos() {
                     </div>
                     <div className="w-full flex flex-col sm:flex-row gap-4 h-fit items-center">
                         <a className="flex flex-col gap-4 justify-center items-center duration-150 ease-in-out transition-all font-inter hover:scale-105 hover:border-yellow-300 hover:animate-pulse border-2 rounded-lg p-4 w-full md:max-w-36 aspect-square" href={instagramBaja}>
-                            <h3 className="text-xl text-center">Calangotec Baja</h3>
+                            <img className="" src={logobaja.src} alt="Logo Baja" />
                         </a>
                         <p className="text-justify md:w-full md:min-w-3/5 h-fit">A Iniciativa Estudantil Calangotec Baja é um projeto que reúne estudantes apaixonados por engenharia, tecnologia e inovação, com o objetivo de projetar, construir e competir com um veículo off-road, conhecido como Baja SAE. Faço parte do subsistema de Eletrônica, onde atuamos no desenvolvimento e implementação de soluções tecnológicas que garantem o funcionamento da parte elétrica do veículo. Nossa responsabilidade inclui a criação de sistemas de telemetria para coleta de dados em tempo real, como velocidade, rotação do motor, temperatura e outros parâmetros essenciais para o desempenho do Baja. 
                         </p>

@@ -14,7 +14,7 @@ export default function Destaque(props: DestaquesProps) {
             <div className="w-full h-2/5 flex flex-col p-4">
                 <h3 className="w-full text-lg font-bold text-left h-fit">{props.titulo}</h3>  
                 <div className="flex w-full h-full p-2 overflow-scroll">
-                    <p className="w-full text-justify break-words text-ellipsis h-full">{props.descricao}</p>
+                    <p className="w-full text-justify break-words text-ellipsis h-full scroll-smooth ">{props.descricao}</p>
                 </div>
             </div>
         </a>
