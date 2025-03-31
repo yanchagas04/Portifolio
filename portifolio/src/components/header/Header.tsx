@@ -5,7 +5,7 @@ import seta from "../../../public/arrow_downward_24dp_E3E3E3_FILL0_wght400_GRAD0
 export default function Header() {
     return (
         <header className={"w-full top-0 h-screen flex flex-col gap-6 justify-center items-center font-inter"}>
-            <div className="w-full md:max-w-fit flex flex-col items-center gap-4 py-4 px-2">
+            <div className="w-full md:max-w-fit flex flex-col items-center gap-6 py-4 px-2">
                 <img src={fotoPerfil} alt="Foto Perfil" className="w-48 h-48 sm:w-64 sm:h-64 rounded-full"/>
                 <h1 className="text-3xl md:text-5xl text-center font-bold md:text-nowrap max-w-fit text-transparent bg-clip-text animate-pulse bg-gradient-to-r from-indigo-500 to-pink-500">Yan Campêlo das Chagas</h1>
             </div>
