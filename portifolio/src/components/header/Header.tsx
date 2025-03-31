@@ -10,7 +10,7 @@ export default function Header() {
                 <h1 className="text-3xl md:text-5xl text-center font-bold md:text-nowrap max-w-fit text-transparent bg-clip-text animate-pulse bg-gradient-to-r from-indigo-500 to-pink-500">Yan Campêlo das Chagas</h1>
             </div>
             <div className="flex justify-center w-full h-fit">
-                <img onClick={() => {window.scrollTo({top: window.innerHeight, behavior: "smooth"})}} className="w-20 animate-bounce fill-indigo-500" src={seta.src} alt="" />
+                <img onClick={() => {window.scrollTo({top: window.innerHeight, behavior: "smooth"})}} className="cursor-pointer w-20 animate-bounce fill-indigo-500" src={seta.src} alt="" />
             </div>
         </header>
     )
