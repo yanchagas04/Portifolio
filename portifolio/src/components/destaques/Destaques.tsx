@@ -3,9 +3,9 @@ import geradorTicket from "../../../public/projetos/geradorticket.png"
 import calculadoraIdade from "../../../public/projetos/calcidade.png"
 
 const destaques = [
-    {titulo: "Geração de Tickets", descricao: "Página de geração de tickets proposta para a matéria de FullStack visando aplicar as habilidades aprendidas de HTML, CSS e JS aprendidas em sala.", link_github: "https://github.com/yan-campelo/Projeto1", imagem: geradorTicket.src},
-    {titulo: "Calculadora de Idade", descricao: "Calculadora de idade proposta para a matéria de FullStack visando aplicar as habilidades aprendidas utilizando React, Node.js e TailwindCSS.", link_github: "https://github.com/yan-campelo/Projeto2", imagem: calculadoraIdade.src},
-    {titulo: "MelembraAI", descricao: "Projeto futuro da materia de FullStack visando aplicar as habilidades aprendidas utilizando React, Node.js, TailwindCSS e requisição a APIs externas.", link_github: "https://github.com/yan-campelo/Projeto3", imagem: "https://placehold.co/150"},
+    {titulo: "Geração de Tickets", descricao: "Página de geração de tickets proposta para a matéria de FullStack visando aplicar as habilidades aprendidas de HTML, CSS e JS aprendidas em sala.", link_github: "https://github.com/yanchagas04/GeracaoDeTickets", imagem: geradorTicket.src},
+    {titulo: "Calculadora de Idade", descricao: "Calculadora de idade proposta para a matéria de FullStack visando aplicar as habilidades aprendidas utilizando React, Node.js e TailwindCSS.", link_github: "https://github.com/yanchagas04/Calculadora-Idade", imagem: calculadoraIdade.src},
+    {titulo: "MelembraAI", descricao: "Projeto futuro da materia de FullStack visando aplicar as habilidades aprendidas utilizando React, Node.js, TailwindCSS e requisição a APIs externas.", link_github: "https://github.com/yanchagas04/MelembraAI", imagem: "https://placehold.co/150"},
 ]
 
 export default function Destaques() {
