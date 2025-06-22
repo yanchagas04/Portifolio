@@ -8,6 +8,15 @@
   --foreground: #171717;
 }
 
+/* Scroll suave global */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ajuste para compensar o menu fixo */
+section {
+  scroll-margin-top: 4rem;
+}
 
 .font-inter {
   font-family: "Inter";
@@ -37,5 +46,7 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: var(--foreground);
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  min-height: 100vh;
 }
