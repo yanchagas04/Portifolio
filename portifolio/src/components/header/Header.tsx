@@ -26,11 +26,11 @@ export default function Header() {
 					alt="Foto Perfil"
 					className="w-48 h-48 sm:w-64 sm:h-64 rounded-full shadow-2xl"
 				/>
-				<h1 className="text-3xl md:text-5xl text-center font-bold md:text-nowrap max-w-fit text-transparent bg-clip-text bg-soft-blue-400">
+				<h1 className="flex text-3xl md:text-4xl text-center font-bold md:text-nowrap max-w-fit text-transparent bg-clip-text bg-soft-blue-400">
 					Yan Campêlo das Chagas
 				</h1>
 				<p className="text-lg md:text-xl text-center text-soft-blue-400 max-w-2xl">
-					Desenvolvedor Full Stack | Engenheiro de Computação
+					Desenvolvedor Back-end | Graduando em Eng. de Computação
 				</p>
 				<div className="flex gap-8 p-4">
 					<button

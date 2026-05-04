@@ -29,10 +29,6 @@ const tecnologias: TecnologiaCardProps[] = [
 		titulo: "SQLite",
 		imagem: "https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg",
 	},
-	{
-		titulo: "Flask",
-		imagem: "https://www.bairesdev.com/wp-content/uploads/2021/08/Flask-1.svg",
-	},
 ];
 
 export default function Sobre() {
